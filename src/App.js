@@ -24,6 +24,7 @@ let routers = createBrowserRouter([
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
+      { path:"ecommerce", element: <Home /> },
       { path: "login", element: <Login /> },
       { path: "register", element: <Register /> },
       {
